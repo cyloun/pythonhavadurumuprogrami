@@ -60,12 +60,12 @@ ButonIsleyici = customtkinter.CTkButton(master=tk,text="Arama",command=HavaDurum
 ButonIsleyici.place(x=150,y=65,anchor=tkinter.CENTER)
 
 şehirAdıLabel = customtkinter.CTkLabel(master=tk,justify="center",text="")
-şehirAdıLabel.place(x=10,y=100,)
+şehirAdıLabel.place(x=10,y=100)
 sıcaklıkLabel = customtkinter.CTkLabel(master=tk,text="")
-sıcaklıkLabel.place(x=10,y=125,)
+sıcaklıkLabel.place(x=10,y=125)
 durumLabel = customtkinter.CTkLabel(master=tk,text="")
-durumLabel.place(x=10,y=150,)
+durumLabel.place(x=10,y=150)
 fotoLabel = customtkinter.CTkLabel(master=tk,text="")
-fotoLabel.place(x=190,y=90,)
+fotoLabel.place(x=190,y=90)
 
 tk.mainloop()
