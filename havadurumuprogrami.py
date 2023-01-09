@@ -6,6 +6,7 @@ from tkinter import messagebox
 from PIL import ImageTk,Image
 from tkinter import ttk
 import customtkinter
+import _thread as thread
 
 myApiKey = "2889d0108e7f6c8f2d12b3dda48e73cb"
 url = "https://api.openweathermap.org/data/2.5/weather"
