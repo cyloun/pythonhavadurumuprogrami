@@ -57,7 +57,7 @@ def HavaDurumu():
 EntryGiris = customtkinter.CTkEntry(master=tk,justify="center")
 EntryGiris.pack(fill=BOTH,ipady=6,padx=5,pady=5)
 EntryGiris.focus()
-ButonIsleyici = customtkinter.CTkButton(master=tk,text="Arama",command=lambda:thread.start_new_thread(HavaDurumu,("Thread-1", 2)))
+ButonIsleyici = customtkinter.CTkButton(master=tk,text="Arama",command=HavaDurumu)
 ButonIsleyici.place(x=150,y=65,anchor=tkinter.CENTER)
 
 şehirAdıLabel = customtkinter.CTkLabel(master=tk,justify="center",text="")
